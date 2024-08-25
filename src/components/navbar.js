@@ -9,7 +9,7 @@ import {
   ConnectButton,
   useActiveAccount,
 } from "thirdweb/react";
-import { base, baseSepolia, sepolia } from "thirdweb/chains";
+import { base, baseSepolia, sepolia, bsc, bscTestnet } from "thirdweb/chains";
 import {
   createWallet,
   walletConnect,
@@ -115,7 +115,7 @@ export default function Navbar({ }) {
               color: "white",
             }}
           >
-            SAFE
+            sAFE
           </Typography>
         </Box>
         <Box>
@@ -141,7 +141,7 @@ export default function Navbar({ }) {
                 client={client}
                 wallets={wallets}
                 accountAbstraction={{
-                  chain: baseSepolia,
+                  chain: bscTestnet,
                   gasless: true,
                 }}
                 theme={"dark"}

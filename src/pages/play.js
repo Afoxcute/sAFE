@@ -21,7 +21,7 @@ import {
 } from "thirdweb";
 import { useMutation } from "@apollo/client";
 import Claim from "../components/claim";
-import { bscTestnet } from "thirdweb/chains";
+import { baseSepolia, bscTestnet } from "thirdweb/chains";
 
 const userData = {
   wallet: "0xb794f5ea0ba39494ce839613fffba74279579268",
@@ -53,7 +53,8 @@ function Play() {
   const contract = getContract({
     client,
     chain: defineChain(97),
-    address: "0x88Dc423ec591c73A8C4B34387DF8CBEf45188734",
+    address: "0x88Dc423ec591c73A8C4B34387DF8CBEf45188734", //stake contract
+
   });
 
   console.log(account);
@@ -210,7 +211,7 @@ function Play() {
                 textAlign: 'center',
               }}
             >
-                {"0"} sAFE
+                {"0"} bscETH
             </p>
             <Claim contract={contract} account={account} />
           </div>

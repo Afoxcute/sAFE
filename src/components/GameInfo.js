@@ -109,7 +109,7 @@ const GameInfo = () => {
                 color: "white",
               }}
             >
-              SAFE
+              sAFE
             </Typography>
           </Box>
           <p
@@ -118,7 +118,7 @@ const GameInfo = () => {
               fontSize: "14px",
             }}
           >
-            Copyright © Safe
+            Copyright © sAFE
           </p>
         </div>
       </div>
