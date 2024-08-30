@@ -15,7 +15,7 @@ function Game() {
   const [playHistory, setPlayHistory] = useState([]);
   const wallets = [inAppWallet()];
 
-  var relativeTime = require('dayjs/plugin/relativeTime')
+  let relativeTime = require('dayjs/plugin/relativeTime')
   dayjs.extend(relativeTime)
 
   const fetchHistory = async () => {
