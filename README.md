@@ -4,7 +4,9 @@ Welcome to the sAFE App!
 
 This application allows users to connect their wallets and play a game(P2E), luck-based game on the BSC blockchain.
 
-Features Wallet Integration: Connect your wallet to the app using thirdweb walletconnect to enable you to play the game.
+Features
+
+Wallet Integration: Connect your wallet to the app using thirdweb walletconnect to enable you to play the game.
 
 Game play: Play the game and get double of bet amount.
 
