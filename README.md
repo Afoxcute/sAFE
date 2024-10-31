@@ -1,4 +1,4 @@
-sAFE App
+sAFE DApp
 
 Welcome to the sAFE App!
 
